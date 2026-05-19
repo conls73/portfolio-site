@@ -78,10 +78,7 @@
 
   .contact-buttons {
     flex-direction: column;
-  }
-
-  .contact-button {
-    width: 100%;
+    align-items: center;
   }
 
   .contact-intro {
