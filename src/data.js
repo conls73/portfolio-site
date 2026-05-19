@@ -1,0 +1,71 @@
+export const projects = [
+  {
+    id: 1,
+    name: 'Craftsman Drywall',
+    category: 'Small Business',
+    description: 'Small business website for a drywall and painting company, built to improve mobile presentation, service messaging, local credibility, and estimate request flow.',
+    tags: ['Small Business', 'Astro', 'Paid Client'],
+    tech: ['HTML/CSS', 'Astro', 'GitHub Pages', 'Netlify', 'AI-assisted development'],
+    link: 'https://conls73.github.io/craftsman-drywall/',
+    screenshot: '/craftsman.png',
+    featured: true,
+  },
+  {
+    id: 2,
+    name: 'Mobile Blood Draw',
+    category: 'Small Business',
+    description: 'Mobile-first website for a mobile blood draw service, designed for simple navigation, clear service information, appointment scheduling, and payment flow.',
+    tags: ['Small Business', 'Webflow', 'Paid Client'],
+    tech: ['Webflow', 'Calendly', 'Stripe', 'Canva'],
+    link: 'https://mobile-blood-draw.webflow.io/',
+    screenshot: '/mobile blood.png',
+    featured: true,
+  },
+  {
+    id: 3,
+    name: 'PokeScrape',
+    category: 'App',
+    description: 'Python/Flask web scraping app that searches online stores for Pokémon card product data and allows results to be exported in CSV or JSON format.',
+    tags: ['App', 'Python', 'Flask', 'BeautifulSoup', 'Paid Client'],
+    tech: ['Flask', 'BeautifulSoup', 'Render', 'CSV/JSON export'],
+    link: 'https://pokescrape.onrender.com/',
+    screenshot: '/pokescrape.png',
+    note: 'Takes about 1 minute to load.',
+    featured: true,
+  },
+  {
+    id: 4,
+    name: 'Agent Link',
+    category: 'App',
+    description: 'Unfinished demo of a Linktree-style landing page concept built for real estate agents to organize links, contact options, and business resources in one shareable page.',
+    tags: ['App', 'Next.js', 'Demo', 'Unfinished Demo'],
+    tech: ['Next.js', 'Vercel', 'AI-assisted development'],
+    link: 'https://atlas-flow-psi.vercel.app/',
+    screenshot: '/agent link.png',
+    featured: false,
+  },
+  {
+    id: 5,
+    name: 'Study Forge',
+    category: 'Game',
+    description: 'Unfinished educational tactical game demo inspired by strategy RPGs, built as a learning project and prototype for game-based studying.',
+    tags: ['Game', 'Replit', 'Demo', 'Unfinished Demo'],
+    tech: ['Replit', 'AI-assisted development', 'game prototype'],
+    link: 'https://coming-soon--gptquillen.replit.app/',
+    screenshot: '/study forge.png',
+    featured: false,
+  },
+];
+
+export const skills = {
+  'Web Design': ['Astro', 'GitHub Pages', 'Vercel', 'Netlify', 'HTML/CSS', 'Canva'],
+  'Apps & Development': ['Flask', 'BeautifulSoup', 'Next.js', 'Replit', 'Render'],
+  'Automation & CRM': ['Make.com', 'HubSpot', 'Salesforce', 'Mailchimp', 'Calendly', 'Stripe'],
+  'AI Tools': ['Claude', 'Gemini', 'Cursor', 'AI-assisted development'],
+};
+
+export const contactInfo = {
+  email: 'lifeofconls@gmail.com',
+  github: 'https://github.com/conls73',
+  linkedin: 'https://www.linkedin.com/in/conley-quillen-77a81a1a5/',
+};
