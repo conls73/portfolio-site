@@ -33,7 +33,7 @@ export default function Navigation({ onExpandProjects }) {
       <div className="container nav-container">
         <div className="nav-brand">
           <a href="#" onClick={() => scrollToSection('home')}>
-            <img src="/logo.svg" alt="Conley Quillen" className="nav-logo" />
+            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Conley Quillen" className="nav-logo" />
           </a>
         </div>
 

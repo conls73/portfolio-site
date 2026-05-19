@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="hero-image-wrapper">
               <img
                 ref={imageRef}
-                src="/Conley.png"
+                src={`${import.meta.env.BASE_URL}Conley.png`}
                 alt="Conley Quillen"
                 className="hero-image"
               />

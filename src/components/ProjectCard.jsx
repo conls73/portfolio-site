@@ -6,7 +6,7 @@ export default function ProjectCard({ project, activeFilter, onFilterChange }) {
       <div className="project-preview">
         {project.screenshot && (
           <img
-            src={project.screenshot}
+            src={`${import.meta.env.BASE_URL}${project.screenshot.replace(/^\//, '')}`}
             alt={`${project.name} screenshot`}
             className="project-card-image"
           />

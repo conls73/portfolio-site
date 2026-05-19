@@ -93,13 +93,21 @@
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    padding: 16px 24px;
+  }
+
+  .nav-logo {
+    height: 48px;
+  }
+
   .hamburger {
     display: flex;
   }
 
   .nav-menu {
     position: absolute;
-    top: 60px;
+    top: 100%;
     left: 0;
     right: 0;
     flex-direction: column;
