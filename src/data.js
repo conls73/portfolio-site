@@ -6,8 +6,8 @@ export const projects = [
     description: 'Small business website for a drywall and painting company, built to improve mobile presentation, service messaging, local credibility, and estimate request flow.',
     tags: ['Small Business', 'Astro', 'Paid Client'],
     tech: ['HTML/CSS', 'Astro', 'GitHub Pages', 'Netlify', 'AI-assisted development'],
-    link: 'https://conls73.github.io/craftsman-drywall/',
-    screenshot: '/craftsman.png',
+    link: 'https://craftsmandrywall.net/',
+    screenshot: '/craftsman-before-after.png',
     featured: true,
   },
   {
